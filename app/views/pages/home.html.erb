@@ -1,0 +1,81 @@
+<! DOCTYPE html>
+<html>
+<head>
+<style>
+
+#myHeader
+{
+	background-color: lightblue;
+	color: black;
+	padding : 60 px;
+	text-align: center;
+}
+
+#myImg
+{
+	text-align: center;
+    width: 100%;
+    height : auto;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+
+}
+
+div.relative2 {
+    position: relative;
+    right: 30px;
+
+}
+
+#Mysection
+{
+	text-align: center;
+    float: left;
+    width: 40%;
+    height: 300px;
+    background: #ccc;
+    padding: 30px;
+    margin-left: 50 px;
+    border-top : 5px solid black;
+    border-right : 5px solid black;
+}
+
+
+#Mysection2
+{
+	text-align: center;
+    float: right;
+    width: 40%;
+    height: 300px;
+    background: #ccc;
+    padding: 30px;
+    border-top : 5px solid black;
+    border-left : 5px solid black;
+}
+
+</style>	
+</head>
+<body>
+    
+<%= link_to 'About', about_path %>
+
+	<header id="MyHeader" style="font-size:300%; "><b>La page d'introduction !</b></header>
+	<h2 id="Myimg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkJ2qaOaUB-JPBo7OM6XePRYnyalAJycEItszGB83Sot6IRttyw" alt="Suicicde">
+    </h2>
+    
+    <div class =relative><section id="Mysection">
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section></div>
+    
+    
+    
+    <div class =relative2><section id="Mysection2">
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section></div>
+
+</body>
+</html>
